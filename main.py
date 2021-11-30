@@ -2,11 +2,11 @@ import telebot
 import random
 from telebot import types
 # Загружаем список интересных фактов
-f = open('data/facts.txt', 'r', encoding='UTF-8')
+f = open('D:\BOTFACTS\FactsandpogovorkaBot\facti.txt', 'r', encoding='UTF-8')
 facts = f.read().split('\n')
 f.close()
 # Загружаем список поговорок
-f = open('data/thinks.txt', 'r', encoding='UTF-8')
+f = open('D:\BOTFACTS\FactsandpogovorkaBot\pogovor.txt', 'r', encoding='UTF-8')
 thinks  = f.read().split('\n')
 f.close()
 # Создаем бота
