@@ -1,5 +1,4 @@
-import telebot
-import random
+import telebot, random
 from telebot import types
 # Загружаем список интересных фактов
 f = open('D:\BOTFACTS\FactsandpogovorkaBot\misli.txt', 'r', encoding='UTF-8')
