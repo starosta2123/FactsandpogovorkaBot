@@ -45,3 +45,5 @@ def handle_text(message):
             answer = random.choice(thinks)
     # Отсылаем юзеру сообщение в его чат
     bot.send_message(message.chat.id, answer)
+    
+    bot.polling(none_stop=True, interval=0)
