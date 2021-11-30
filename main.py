@@ -2,7 +2,7 @@ import telebot
 import random
 from telebot import types
 # Загружаем список интересных фактов
-f = open('D:\BOTFACTS\FactsandpogovorkaBot\facti.txt', 'r', encoding='UTF-8')
+f = open('D:\BOTFACTS\FactsandpogovorkaBot\misli.txt', 'r', encoding='UTF-8')
 facts = f.read().split('\n')
 f.close()
 # Загружаем список поговорок
