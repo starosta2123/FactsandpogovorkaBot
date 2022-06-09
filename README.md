@@ -1,4 +1,3 @@
-Tutorial https://youtu.be/HOJsalRLnEQ
 sudo su
  
 apt update
